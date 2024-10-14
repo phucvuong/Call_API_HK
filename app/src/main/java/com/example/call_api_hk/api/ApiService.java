@@ -22,4 +22,7 @@ public interface ApiService {
             .create(ApiService.class);
     @GET("posts")
     Call<List<User>> getListUsers(@Query("userId") int userId);
+
+    //kkkkkk
 }
+
